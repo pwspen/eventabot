@@ -22,7 +22,7 @@ class LocationQuery(BaseModel):
     latitude: float = Field(..., description="User's latitude")
     longitude: float = Field(..., description="User's longitude")
     interests: str = Field(..., description="User's interests as a text description")
-    num_events: Optional[int] = Field(default=10, description="Number of events to fetch")
+    num_events: Optional[int] = Field(default=20, description="Number of events to fetch")
     verbose: Optional[bool] = Field(default=False, description="Enable verbose output")
 
 @app.post("/api/recommendations")
