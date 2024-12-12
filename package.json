@@ -1,6 +1,6 @@
 {
   "name": "frontend",
-  "homepage": "https://pwspen.github.io/eventabot",
+  "homepage": "https://pwspen.github.io/eventabot/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "lucide-react": "^0.468.0",
