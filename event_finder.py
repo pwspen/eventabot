@@ -7,7 +7,7 @@ from typing import Optional, Dict, Any
 from math import radians, sin, cos, sqrt, atan2
 import os
 import time
-import ollama
+# import ollama
 
 OPENROUTER_API_KEY = os.environ["OPENROUTER_API_KEY"]
 
